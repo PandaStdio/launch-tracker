@@ -1,6 +1,7 @@
 import React from 'react'
 import Auth from '@aws-amplify/auth';
 import { Link } from "react-router-dom";
+import Hero from './Hero';
 
 const Home = () => {
   let signOut = async() => {
@@ -9,6 +10,7 @@ const Home = () => {
   }
   return (
     <div>
+      <Hero/>
       <h2 className="px-3 mb-3 lg:mb-3 uppercase tracking-wide font-semibold text-sm lg:text-lg text-gray-900">
         Home page
       </h2>
