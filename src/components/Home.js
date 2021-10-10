@@ -1,6 +1,7 @@
 import React from 'react'
 import Auth from '@aws-amplify/auth';
 import { Link } from "react-router-dom";
+import { styles } from './utils';
 
 const Home = () => {
   let signOut = async() => {
@@ -23,7 +24,60 @@ const Home = () => {
           Log out
         </Link>
       </div>
+      <div classname={styles.container}>
+        <ul className="flex flex-col">
+        <li className={styles.li}>test1</li>
+        <li className={styles.li}>test2</li>
+        <li className={styles.li}>test3</li>
+        </ul>
+
+      <div  class="flex flex-col ..." style={{border:'1px solid black'}} >
+        <div class="flex-auto ..." style={{border:'1px solid black'}}>
+          title   
+          <div class="flex flex-row ..." style={{border:'1px solid black'}}>
+            <div class="flex flex-auto ... " style={{border:'1px solid black'}}>
+              <div  class="flex flex-col ..." style={{border:'1px solid black'}}>
+              <div class="flex-auto ..." style={{border:'1px solid black'}}>
+                launch title 
+              </div>
+
+              <div class="flex-auto ..." style={{border:'1px solid black'}}>
+                company 
+              </div>
+              </div> 
+            </div>
+            
+            <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
+              picture
+            </div>
+          </div>
+
+        </div>
+        <div class="flex-auto ..." style={{border:'1px solid black'}}>
+        <div class="flex flex-row ..." style={{border:'1px solid black'}}>
+            <div class="flex flex-auto ... " style={{border:'1px solid black'}}>
+              <div  class="flex flex-col ..." style={{border:'1px solid black'}}>
+              <div class="flex-auto ..." style={{border:'1px solid black'}}>
+                date 
+              </div>
+
+              <div class="flex-auto ..." style={{border:'1px solid black'}}>
+                location 
+              </div>
+              </div> 
+            </div>
+            
+            <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
+              more info
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
     </div>
+
   )
 }
 // ixycfqdzwgtuomvfzm@wqcefp.com
