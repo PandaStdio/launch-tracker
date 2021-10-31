@@ -1,4 +1,20 @@
-# Auth flow with Aws Amplify, ReactJs, and Tailwind CSS
+# Upcoming Rocket Launchs Website
+
+This is a learning project to become more familiar with the following technologies:
+- React
+- TailwindCSS
+- AWS Amplify
+
+## Project Setup
+
+1. Clone this repo
+2. Run `npm i` to install the node modules.
+3. Install the Amplify CLI: https://docs.amplify.aws/cli/start/install/#option-1-watch-the-video-guide
+4. Run `amplify configure` to authenticate with AWS admin.
+5. Run `amplify pull` to pull in the AWS configuration to your local environemnt.
+6. Run `npm run start` to serve the dev env at [http://localhost:3000](http://localhost:3000). The page will hot reload with edits to code.
+
+## This repo is based off a starter project:
 
 This app is based on the following blog [post](https://dev.to/aws-builders/auth-flow-with-aws-amplify-reactjs-and-tailwind-css-10mo)
 
@@ -9,15 +25,6 @@ Authentication service relies on [Aws amplify](https://docs.amplify.aws/cli/auth
 The route system works thanks to the help of [React router](https://reactrouter.com/)
 
 The UI is done with the help of [Tailwind CSS](https://tailwindcss.com/)
-
-## Running the app
-
-### `yarn or npm i` then `yarn start or npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.
 
 
 
