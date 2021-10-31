@@ -1,4 +1,4 @@
-# Upcoming Rocket Launchs Website
+# Upcoming Rocket Launches Website
 
 This is a learning project to become more familiar with the following technologies:
 - React
