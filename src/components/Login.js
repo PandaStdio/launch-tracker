@@ -20,7 +20,7 @@ const LogIn = () => {
         username: user.username,
         password: user.password,
       });
-      history.push('./home')
+      history.push('./admin')
     } catch (error) {
       console.error('error', error);
     }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect }  from 'react';
 import { Redirect, Route } from "react-router-dom";
 import { Auth } from 'aws-amplify';
-import Homepage from './Home'
+import Admin from './Admin';
 
 const PrivateRoute = ({ children, ...rest }) => {
   const [signInUser, setSignInUser] = useState(null);
@@ -26,7 +26,7 @@ const PrivateRoute = ({ children, ...rest }) => {
   }
   return (
     <Route {...rest} render={({ location }) => {
-      return signInUser? <Homepage/>
+      return signInUser? <Admin/>
         : <Redirect to={{
             pathname: '/log-in',
             state: { from: location }

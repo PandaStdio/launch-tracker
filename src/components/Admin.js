@@ -3,7 +3,7 @@ import Auth from '@aws-amplify/auth';
 import { Link } from "react-router-dom";
 import Banner from './common/Banner';
 
-const Home = () => {
+const Admin = () => {
   let signOut = async() => {
     await Auth.signOut();
     console.log("Sign out succesfully")
@@ -11,22 +11,14 @@ const Home = () => {
   return (
     <div>
       <Banner
-        subHeading="Launch Tracker"
-        heading="Don't Miss a Launch"
-        description="Launch tracker keeps you up to date on the latest launches."
+        subHeading="Admin"
+        heading="Admin Dashboard"
+        description="This is the admin dashboard"
         />
       <h2 className="px-3 mb-3 lg:mb-3 uppercase tracking-wide font-semibold text-sm lg:text-lg text-gray-900">
-        Home page
+        Admin
       </h2>
       <div className="ml-3 text-base">
-        <Link
-          to={{
-            pathname: '/admin',
-          }}
-          className="pt-2 text-sm text-gray-500 hover:text-gray-600"
-        >
-          Admin
-        </Link>
         <Link
           to={{
             pathname: '/home',
@@ -41,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Admin
