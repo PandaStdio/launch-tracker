@@ -35,7 +35,10 @@ amplify/backend/.temp
 build/
 dist/
 node_modules/
-aws-exports.js
+# aws-exports.js
+# aws-exports.js does not contain sensitivit info
+# It's normally in here for other reasons that we don't care about
+# https://github.com/edwardfoyle/docs/blob/9846d8fd5c06125855ab08e402e82745e7e46716/docs/cli/reference/files.md#aws-exportsjs
 awsconfiguration.json
 amplifyconfiguration.json
 amplifyconfiguration.dart
