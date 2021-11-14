@@ -2,6 +2,7 @@ import React from 'react'
 import Auth from '@aws-amplify/auth';
 import { Link } from "react-router-dom";
 import { styles } from './utils';
+import style from './styles.css'
 
 const Home = () => {
   let signOut = async() => {
@@ -25,23 +26,28 @@ const Home = () => {
         </Link>
       </div>
       <div classname={styles.container}>
-        <ul className="flex flex-col">
+        {/* <ul className="flex flex-col">
         <li className={styles.li}>test1</li>
         <li className={styles.li}>test2</li>
         <li className={styles.li}>test3</li>
-        </ul>
+        </ul> */}
 
-      <div  class="flex flex-col ..." style={{border:'1px solid black'}} >
-        <div class="flex-auto ..." style={{border:'1px solid black'}}>
+      <div class="flex flex-col ..." style={{border:'1px solid black'}}>
+        <div class="flex flex-col ..." style={{border:'1px solid black'}}>
           title   
           <div class="flex flex-row ..." style={{border:'1px solid black'}}>
             <div class="flex flex-auto ... " style={{border:'1px solid black'}}>
               <div  class="flex flex-col ..." style={{border:'1px solid black'}}>
-              <div class="flex-auto ..." style={{border:'1px solid black'}}>
-                launch title 
+              <div class="flex flex-col flex1 ..." style={{border:'1px solid black'}}>
+                <h2>launch title </h2>
+                <div class="flex flex1 text-base ...">
+                  <p>
+                    According to all known lddaws of aviation.
+                  </p>
+                </div>
               </div>
 
-              <div class="flex-auto ..." style={{border:'1px solid black'}}>
+              <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
                 company 
               </div>
               </div> 
@@ -53,11 +59,11 @@ const Home = () => {
           </div>
 
         </div>
-        <div class="flex-auto ..." style={{border:'1px solid black'}}>
+        <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
         <div class="flex flex-row ..." style={{border:'1px solid black'}}>
-            <div class="flex flex-auto ... " style={{border:'1px solid black'}}>
-              <div  class="flex flex-col ..." style={{border:'1px solid black'}}>
-              <div class="flex-auto ..." style={{border:'1px solid black'}}>
+            <div class="flex-auto ... " style={{border:'1px solid black'}}>
+              <div class="flex flex-col ..." style={{border:'1px solid black'}}>
+              <div class="flex flex1" style={{border:'1px solid black'}}>
                 date 
               </div>
 
@@ -67,7 +73,7 @@ const Home = () => {
               </div> 
             </div>
             
-            <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
+            <div class="  flex-auto ..." style={{border:'1px solid black'}}>
               more info
             </div>
           </div>
