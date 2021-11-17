@@ -1,7 +1,7 @@
 import React from 'react'
 import Auth from '@aws-amplify/auth';
 import { Link } from "react-router-dom";
-import Banner from './common/Banner';
+import Banner1 from './common/Banner1';
 
 const Admin = () => {
   let signOut = async() => {
@@ -10,7 +10,7 @@ const Admin = () => {
   }
   return (
     <div>
-      <Banner
+      <Banner1
         subHeading="Admin"
         heading="Admin Dashboard"
         description="This is the admin dashboard"

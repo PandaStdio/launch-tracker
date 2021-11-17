@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './components/common/Header'
+import Footer from './components/common/Footer'
 
 import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
