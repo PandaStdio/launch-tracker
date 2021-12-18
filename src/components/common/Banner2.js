@@ -5,7 +5,7 @@ const Banner2 = () => {
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-12 mx-auto">
         <div class="flex flex-wrap">
-          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6">
             <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">SpaceX</h2>
             <p class="leading-relaxed text-base mb-4">SpaceX is an American aerospace and defense company based in Hawthorne, California. It was founded in 2002 by Elon Musk with the goal of reducing the time between the arrival of a spacecraft and its first flight. SpaceX's Falcon Heavy is the second spacecraft to be built for this goal.</p>
             <a href="/" class="text-indigo-500 inline-flex items-center">Next Launch
