@@ -33,11 +33,11 @@ const Home = () => {
         </ul> */}
 
       <div class="flex flex-col ..." style={{border:'1px solid black'}}>
-        <div class="flex flex-col ..." style={{border:'1px solid pink'}}>
+        <div class="flex flex-col ...">
           title   
-          <div class="flex flex-row ..." style={{border:'1px solid yellow'}}>
-            <div  class="flex flex-col flex2 ..." style={{border:'1px solid blue'}}>
-              <div class="flex flex-col flex1 ..." style={{border:'1px solid green'}}>
+          <div class="flex flex-row ...">
+            <div  class="flex flex-col flex2 ...">
+              <div class="flex flex-col flex1 ..." style={{border:'1px solid black'}}>
                 <h2>launch tit </h2>
               </div>
               <div class="flex flex1 ..." style={{border:'1px solid black'}}>
@@ -49,14 +49,14 @@ const Home = () => {
                 company 
               </div>
             </div> 
-            <div class="flex flex-col flex1..." style={{border:'1px solid orange'}}>
+            <div class="flex flex-col flex1..." style={{border:'1px solid black'}}>
               <img src="images/BarryBBenson.jpg" alt="Barry"></img> 
             </div>
           </div>
 
         </div>
-          <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
-            <div class="flex-col flex2 ... " style={{border:'1px solid green'}}>
+          <div class="flex flex-auto ..." >
+            <div class="flex-col flex2 ... ">
               <div class="flex flex1" style={{border:'1px solid black'}}>
                 date 
               </div>
@@ -66,13 +66,11 @@ const Home = () => {
               </div>
             </div>
             
-            <div class="flex flex-col flex1 ..." style={{border:'1px solid orange'}}>
+            <div class="flex flex-col flex1 ..." style={{border:'1px solid black'}}>
               more info
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
 
