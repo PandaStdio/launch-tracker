@@ -6,10 +6,29 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
   .flex1 {
+    flex-grow: 1;
+
+  }
+  .flex2 {  
+    flex-grow: 2;
+    /* min-width: 500px;
+    max-width: 1000px;
+    width: 100%; */
+    /* background: #6AB6D8;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 3px solid #2E86BB;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    position: relative; */
+  }
+
+  .flex2 {
     min-width: 500px;
     max-width: 1000px;
+    width: 100%;
     /* background: #6AB6D8;
     padding: 10px;
     margin-bottom: 50px;

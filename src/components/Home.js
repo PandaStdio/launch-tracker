@@ -33,52 +33,44 @@ const Home = () => {
         </ul> */}
 
       <div class="flex flex-col ..." style={{border:'1px solid black'}}>
-        <div class="flex flex-col ..." style={{border:'1px solid black'}}>
+        <div class="flex flex-col ..." style={{border:'1px solid pink'}}>
           title   
-          <div class="flex flex-row ..." style={{border:'1px solid black'}}>
-            <div class="flex flex-auto ... " style={{border:'1px solid black'}}>
-              <div  class="flex flex-col ..." style={{border:'1px solid black'}}>
-              <div class="flex flex-col flex1 ..." style={{border:'1px solid black'}}>
-                <h2>launch title </h2>
-                <div class="flex flex1 text-base ...">
-                  <p>
-                    According to all known lddaws of aviation.
-                  </p>
-                </div>
+          <div class="flex flex-row ..." style={{border:'1px solid yellow'}}>
+            <div  class="flex flex-col flex2 ..." style={{border:'1px solid blue'}}>
+              <div class="flex flex-col flex1 ..." style={{border:'1px solid green'}}>
+                <h2>launch tit </h2>
               </div>
-
+              <div class="flex flex1 ..." style={{border:'1px solid black'}}>
+                <p>
+                  launch.
+                </p>
+              </div>
               <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
                 company 
               </div>
-              </div> 
-            </div>
-            
-            <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
-              picture
+            </div> 
+            <div class="flex flex-col flex1..." style={{border:'1px solid orange'}}>
+              <img src="images/BarryBBenson.jpg" alt="Barry"></img> 
             </div>
           </div>
 
         </div>
-        <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
-        <div class="flex flex-row ..." style={{border:'1px solid black'}}>
-            <div class="flex-auto ... " style={{border:'1px solid black'}}>
-              <div class="flex flex-col ..." style={{border:'1px solid black'}}>
+          <div class="flex flex-auto ..." style={{border:'1px solid black'}}>
+            <div class="flex-col flex2 ... " style={{border:'1px solid green'}}>
               <div class="flex flex1" style={{border:'1px solid black'}}>
                 date 
               </div>
 
-              <div class="flex-auto ..." style={{border:'1px solid black'}}>
+              <div class="flex flex-col  ..." style={{border:'1px solid black'}}>
                 location 
               </div>
-              </div> 
             </div>
             
-            <div class="  flex-auto ..." style={{border:'1px solid black'}}>
+            <div class="flex flex-col flex1 ..." style={{border:'1px solid orange'}}>
               more info
             </div>
           </div>
         </div>
-      </div>
 
 
       </div>
